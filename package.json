@@ -1,0 +1,13 @@
+{
+    "name": "digimon-tcg-bot",
+    "version": "1.0.0",
+    "description": "Gets card data from digimoncard.io",
+    "main": "bot.js",
+    "author": "An Le",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "winston": "^3.3.3",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "prefix": "!"
+}
