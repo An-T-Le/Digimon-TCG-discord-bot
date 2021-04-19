@@ -2,7 +2,6 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -15,7 +14,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get and create a discord bot authorization token at [https://discordapp.com/developers/applications/me](https://discordapp.com/developers/applications/me)
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
@@ -26,10 +25,11 @@ This is an example of how to list things you need to use the software and how to
    npm install https://github.com/woor/discord.io/tarball/gateway_v6
    npm install xmlhttprequest
    ```
-4. Enter your API in `auth.json`
+4. Create `auth.json` 
+5. Enter your authorization token in `auth.json`
    ```JS
    {
-    "token": "TOKEN"
+    "token": "YOUR TOKEN HERE"
    }
    ```
 
@@ -38,7 +38,4 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
